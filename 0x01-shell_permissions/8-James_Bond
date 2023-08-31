@@ -1,0 +1,3 @@
+#!/bin/bash
+chmod ug-wrx hello
+chmod o+wrx hello
