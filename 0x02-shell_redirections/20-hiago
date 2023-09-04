@@ -1,2 +1,2 @@
 #!/bin/bash
-cleaned_string=$(echo "$input_string" | tr -d 'cC')
+cleaned_string="${input_string//c/}"
